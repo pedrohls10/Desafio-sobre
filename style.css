@@ -18,7 +18,7 @@ body{
     background-color: #232323;
     width: 100%;
     height: 80px;
-    border-bottom: solid orangered 3px;
+    border-bottom: solid green 3px;
 }
 
 .header h1{
@@ -40,8 +40,7 @@ body{
     /* coloca os elementos <li> na mesma linha como blocos */
     display: inline-block;
     
-    font-size: 17px;
-    text-transform: uppercase;
+    font-size: 17px;;
     padding: 6px;
     border-radius: 5px;
     background-color: #444444;
@@ -54,6 +53,137 @@ body{
 }
 
 .header .text-orange{
-    color: orangered;
+    color: green;
     font-weight: bold;
 }
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url('./img/banner-fundo.jpeg');
+    text-align: center;
+    background-size: cover;
+    
+}
+.btn-orange{
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.banner h1{
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    text-shadow: black 0.05em 0.1em 0.1em;
+}
+.banner h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 15px;
+    color: white;
+}
+.news{
+    width: 100%;
+    height: 80px;
+    background-color: #232323;
+    text-align: center;
+}
+.news button{
+    margin-top: 20px;
+}
+
+.barra_s{
+background-color: green;
+width: 100%;
+height: 10px;
+}
+.box{
+    text-align: center;
+  }
+  
+  .box-item{
+    display: inline-block;
+    width: 16%;
+    padding: 60px;
+  }
+  
+  .box-item img{
+    width: 100px;
+    margin-top: 35px;
+  }
+  
+  .box-item h3, .box-item p{
+    margin-top: 15px;
+  }
+  .banner2{
+    width: 100%;
+    height: 450px;
+    background-image: url('./img/fundo.jpg');
+    text-align: center;
+    background-size: cover;
+  }
+    .banner2 h1{
+        padding-top: 100px;
+        font-size: 50px;
+        font-weight: bold;
+        color: green;
+        text-shadow: black 0.05em 0.1em 0.1em;
+    }
+    .banner2 h3{
+        font-size: 25px;
+        font-weight: bolder;
+        margin-top: 15px;
+        color: white;
+        text-shadow: black 0.05em 0.1em 0.1em;
+    }
+    .box2{
+    text-align: center;
+  }
+  
+  .box-item2{
+    display: inline-block;
+    width: 16%;
+    padding: 70px;
+  }
+  
+  .box-item2 img{
+    width: 300px;
+    margin-top: 0px;
+  }
+  
+  .box-item2 h3, .box-item p{
+    margin-top: 5px;
+  }
+  .texto2 {
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .texto3 {
+    color: white;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .box3{
+    text-align: center;
+    background-image: url('./img/fundo3.jpg');
+    background-size: cover;
+  }
+  .box-item3{
+    display: inline-block;
+    width: 16%;
+    padding: 70px;
+  }
+  
+  .box-item3 img{
+    width: 30px;
+    margin-top: 20px;
+  }
+  
+  .box-item3 h3, .box-item p{
+    margin-top: 5px;
+  }
+
